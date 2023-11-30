@@ -18,6 +18,9 @@
     "react-to-print": "^2.14.15",
     "web-vitals": "^2.1.4"
   },
+  "engines": {
+    "node": ">=16.20.1"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
