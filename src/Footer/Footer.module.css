@@ -9,6 +9,7 @@
     flex-wrap: wrap;
     /* border: 2px solid pink; */
     justify-content: center;
+    margin-left: 50px;
 }
 
 ul {
@@ -100,9 +101,7 @@ ul {
 
 @media (max-width: 574px) {
     .footerCol {
-        width: 100%;
-        margin-bottom: 30px;
-        margin-left: 195px;
+        width: 51%;
 
     }
 }
