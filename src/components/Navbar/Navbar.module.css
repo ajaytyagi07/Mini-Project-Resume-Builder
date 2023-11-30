@@ -225,6 +225,8 @@ img {
 .LoginButton {
   display: inline-block;
   padding: 10px 20px;
+  margin-left: 16px;
+  margin: 4px;
   font-size: 16px;
   text-align: center;
   text-decoration: none;
