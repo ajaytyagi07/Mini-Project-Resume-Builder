@@ -1,0 +1,87 @@
+.headname {
+  background-color: #FEF6EF;
+  text-align: right;
+  font-weight: 800;
+  padding-right: 25px;
+}
+
+.profileIcon {
+  margin-left: 10px;
+}
+
+.container {
+  padding: 50px 30px;
+  text-align: center;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 30px;
+  background-color: #FEF6EF;
+  min-height: 85vh;
+}
+
+.heading {
+  max-width: 500px;
+  color: #000;
+  font-size: 5rem;
+  line-height: 5.7rem;
+  text-align: left;
+  font-weight: bold;
+  margin-bottom: 75px;
+  margin-left: 35px;
+}
+
+.heading span {
+  background-clip: text;
+  background-image: linear-gradient(to right, #239ce2, #1369b9);
+  color: transparent;
+}
+
+.right img {
+  width: 40vw;
+  height: 60vh;
+}
+
+
+
+@media screen and (max-width:768px) {
+  .heading {
+    max-width: 500px;
+    color: #000;
+    font-size: 4.9rem;
+    line-height: 5.7rem;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 75px;
+    margin-left: 35px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1053px) {
+  .heading {
+    max-width: 500px;
+    color: #000;
+    font-size: 5rem;
+    line-height: 5.7rem;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 75px;
+    margin-left: 35px;
+  }
+}
+
+@media screen and(min-width:0px) and (max-width:586px) {
+  .heading {
+    max-width: 500px;
+    color: #000;
+    font-size: 4.2rem;
+    line-height: 5.7rem;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 75px;
+    margin-left: 35px;
+    margin-top: 25px;
+  }
+}
