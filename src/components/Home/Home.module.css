@@ -58,6 +58,10 @@
     margin-left: 35px;
     margin-top: 95px;
   }
+  .right img {
+    width: 80vw;
+    height: 60vh;
+  }
 }
 
 @media screen and (min-width: 769px) and (max-width: 1053px) {
